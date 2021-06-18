@@ -51,6 +51,6 @@ print(cm)
 from sklearn.model_selection import cross_val_score
 accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10)
 accuracies.std()
-accuracies.mean(
+accuracies.mean()
 
 
